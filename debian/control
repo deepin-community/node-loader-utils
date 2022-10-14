@@ -1,0 +1,29 @@
+Source: node-loader-utils
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+ , node-big.js <!nocheck>
+ , node-emojis-list <!nocheck>
+ , node-json5 <!nocheck>
+ , node-object-assign <!nocheck>
+ , nodejs (>=10) <!nocheck>
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-loader-utils
+Vcs-Git: https://salsa.debian.org/js-team/node-loader-utils.git
+Homepage: https://github.com/webpack/loader-utils#readme
+Rules-Requires-Root: no
+
+Package: node-loader-utils
+Architecture: all
+Depends: ${misc:Depends}
+ , node-big.js
+ , node-emojis-list
+ , node-json5
+ , node-object-assign
+Description: utils for webpack loaders
+ Node.js is an event-based server-side JavaScript engine.

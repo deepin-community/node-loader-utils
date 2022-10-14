@@ -1,0 +1,51 @@
+node-loader-utils (2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * Mark test dependencies with <!nocheck>
+  * New upstream version 2.0.0
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 06 Oct 2020 07:11:08 +0200
+
+node-loader-utils (1.2.3-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * New upstream version 1.2.3
+  * Switch install to pkg-js-tools
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 07 Dec 2019 19:08:10 +0100
+
+node-loader-utils (1.1.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Add patch to fix error string. Fixes debci (Closes: #918626)
+  * Bump debheper compatibility level to 11
+  * Declare compliance with policy 4.3.0
+  * Update VCS fields to salsa
+  * Add Berne Convention comment in debian/copyright
+  * Change section to javascript
+  * Ignore tests in nocheck is set
+  * Add upstream/metadata
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 17 Jan 2019 13:24:56 +0100
+
+node-loader-utils (1.1.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Enable tests
+  * Install whole lib directory
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 25 Jun 2017 13:04:32 +0530
+
+node-loader-utils (0.2.16-1) unstable; urgency=low
+
+  * Initial release (Closes: #845070)
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 20 Nov 2016 11:12:31 +0530
