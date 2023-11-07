@@ -1,3 +1,45 @@
+node-loader-utils (2.0.4-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 2.0.4 (Closes: CVE-2022-37599)
+
+ -- Yadd <yadd@debian.org>  Mon, 14 Nov 2022 10:52:55 +0100
+
+node-loader-utils (2.0.3-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-loader-utils: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Update standards version to 4.6.1, no changes needed.
+  * New upstream release (Closes: CVE-2022-37601)
+
+ -- Yadd <yadd@debian.org>  Thu, 10 Nov 2022 11:46:40 +0100
+
+node-loader-utils (2.0.2-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright)
+  * Remove constraints unnecessary since buster
+
+  [ Yadd ]
+  * Modernize debian/watch
+    * Fix GitHub tags regex
+    * Fix filenamemangle
+  * Update standards version to 4.6.0, no changes needed.
+  * New upstream version 2.0.2
+  * Add lintian overrides
+  * Enable upstream test (jest)
+
+ -- Yadd <yadd@debian.org>  Mon, 10 Jan 2022 22:50:35 +0100
+
 node-loader-utils (2.0.0-1) unstable; urgency=medium
 
   * Team upload

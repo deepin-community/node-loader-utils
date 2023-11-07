@@ -1,0 +1,4 @@
+# False positive: data
+source-is-missing *lib/hash/md4.js*
+source-contains-prebuilt-javascript-object *lib/hash/md4.js*
+very-long-line-length-in-source-file *lib/hash/md4.js*

@@ -6,13 +6,12 @@ Testsuite: autopkgtest-pkg-nodejs
 Priority: optional
 Build-Depends: debhelper-compat (= 13)
  , dh-sequence-nodejs
- , mocha <!nocheck>
+ , jest <!nocheck>
  , node-big.js <!nocheck>
  , node-emojis-list <!nocheck>
  , node-json5 <!nocheck>
  , node-object-assign <!nocheck>
- , nodejs (>=10) <!nocheck>
-Standards-Version: 4.5.0
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/js-team/node-loader-utils
 Vcs-Git: https://salsa.debian.org/js-team/node-loader-utils.git
 Homepage: https://github.com/webpack/loader-utils#readme
@@ -25,5 +24,6 @@ Depends: ${misc:Depends}
  , node-emojis-list
  , node-json5
  , node-object-assign
+Multi-Arch: foreign
 Description: utils for webpack loaders
  Node.js is an event-based server-side JavaScript engine.

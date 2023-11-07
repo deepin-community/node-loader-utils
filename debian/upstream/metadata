@@ -1,7 +1,6 @@
 ---
 Archive: GitHub
 Bug-Database: https://github.com/webpack/loader-utils/issues
-Contact: https://github.com/webpack/loader-utils/issues
-Name: loader-utils
+Bug-Submit: https://github.com/webpack/loader-utils/issues/new
 Repository: https://github.com/webpack/loader-utils.git
 Repository-Browse: https://github.com/webpack/loader-utils
