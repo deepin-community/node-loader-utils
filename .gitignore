@@ -1,1 +1,3 @@
-.pc/
+.idea
+node_modules
+coverage
